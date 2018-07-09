@@ -76,18 +76,22 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CharBody.h" />
     <ClInclude Include="CharCount.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="WordBody.h" />
     <ClInclude Include="WordIden.h" />
     <ClInclude Include="WordSort.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CharBody.cpp" />
     <ClCompile Include="CharCount.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="WordBody.cpp" />
     <ClCompile Include="WordCount.cpp" />
     <ClCompile Include="WordIden.cpp" />
     <ClCompile Include="WordSort.cpp" />
